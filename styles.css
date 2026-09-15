@@ -1,16 +1,16 @@
 :root{
-  --ink:#F1EDE6;
-  --paper:#181512;
-  --surface:#221E19;
-  --surface-alt:#1E1B17;
-  --slate:#B2A99C;
-  --slate-dim:#8A8175;
-  --signal:#D98E4A;
-  --signal-dark:#C97A34;
-  --line:#3A342C;
-  --card-ba:#D9B24A;
-  --card-bi:#4C8FA6;
-  --card-ml:#6FA26A;
+  --ink:#E9ECF3;
+  --paper:#0A0E1A;
+  --surface:#111726;
+  --surface-alt:#0D1220;
+  --slate:#98A1B5;
+  --slate-dim:#6B7386;
+  --signal:#E2873F;
+  --signal-dark:#C86F2C;
+  --line:#232B3E;
+  --card-ba:#E2873F;
+  --card-bi:#5D7CA0;
+  --card-ml:#9098AB;
   --serif:'Source Serif 4', Georgia, serif;
   --sans:'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --maxw:1080px;
@@ -36,7 +36,7 @@ a{color:var(--signal);}
 /* Header */
 .site-header{
   position:sticky; top:0; z-index:50;
-  background:rgba(24,21,18,.92);
+  background:rgba(10,14,26,.92);
   backdrop-filter:blur(6px);
   border-bottom:1px solid var(--line);
 }
@@ -75,7 +75,7 @@ a{color:var(--signal);}
   text-decoration:none; font-size:.92rem; font-weight:600;
   border:1px solid transparent; transition:background .15s ease, border-color .15s ease;
 }
-.btn-primary{background:var(--signal); color:#181512;}
+.btn-primary{background:var(--signal); color:#0A0E1A;}
 .btn-primary:hover{background:var(--signal-dark);}
 .btn-ghost{border-color:var(--line); color:var(--ink);}
 .btn-ghost:hover{border-color:var(--signal); color:var(--signal);}
@@ -131,7 +131,7 @@ blockquote{
   transition:all .15s ease;
 }
 .filter-btn:hover{border-color:var(--signal); color:var(--signal);}
-.filter-btn.is-active{background:var(--signal); border-color:var(--signal); color:#181512;}
+.filter-btn.is-active{background:var(--signal); border-color:var(--signal); color:#0A0E1A;}
 
 .cards{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
 .card{
@@ -164,10 +164,10 @@ blockquote{
 @media (max-width:760px){ .bank-list{grid-template-columns:1fr;} }
 
 /* Contact */
-.section-contact{background:#0F0D0B; color:var(--ink); text-align:left;}
+.section-contact{background:#060911; color:var(--ink); text-align:left;}
 .section-contact h2{color:var(--ink);}
 .section-contact p{color:var(--slate); max-width:60ch;}
-.section-contact .btn-primary{background:var(--signal); color:#0F0D0B;}
+.section-contact .btn-primary{background:var(--signal); color:#060911;}
 .section-contact .btn-primary:hover{background:var(--signal-dark);}
 .section-contact .btn-ghost{border-color:var(--line); color:var(--ink);}
 .section-contact .btn-ghost:hover{border-color:var(--signal); color:var(--signal);}
