@@ -25,6 +25,11 @@ body{
   background:var(--paper);
   line-height:1.55;
   -webkit-font-smoothing:antialiased;
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+}
+@media print{
+  *{-webkit-print-color-adjust:exact !important; print-color-adjust:exact !important;}
 }
 h1,h2,h3,h4{font-family:var(--serif); font-weight:600; line-height:1.15; margin:0 0 .5em; color:var(--ink);}
 p{margin:0 0 1em; max-width:68ch;}
